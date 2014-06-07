@@ -1,0 +1,9 @@
+Check the versionone, based on story number create branch in git.
+1. git branch,   it will show u the branch u r in.  
+2. git checkout -b <feature_S01001>, it will create your branch  and u can working on it.
+3. git push origin <feature_S01001>, it will add remote repository of your branch.
+4. git add ., it will add changes that u made in specific branch.
+5.run mvn test, make sure your test all pass.
+6. git commit -m "S01001: Add new Service Class", this will commit your change and added comment on it, give meaningful comment on it so we can understand what u did. 
+7. git push origin <feaure_S01001>, this will push your change to your branch.
+   
